@@ -63,7 +63,7 @@ void shiftaDireita(produto *p, int tam){
 }
 
 int main(void){
-	int valor1,valor2,i,tam,contador = 0;
+	int valor1,valor2,i,tam,contador = 1;
 
 	printf("Indique a quantidade de bits: ");
 	scanf("%d", &tam);
@@ -102,7 +102,7 @@ int main(void){
         }
         contador+= 1;
 	}
-	printf("A multiplicação dos numeros em binario eh: ");
+	printf("produto dos numeros em binario eh: ");
 	for (i = 0; i < tam; i++){
 		printf("%d ", vet->hi[i]);
 	}
